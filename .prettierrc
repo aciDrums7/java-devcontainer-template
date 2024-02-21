@@ -1,0 +1,30 @@
+plugins:
+  - prettier-plugin-java
+
+overrides:
+  - files:
+      - "*.java"
+    options:
+      printWidth: 140
+      tabWidth: 4
+      useTabs: false
+      trailingComma: none
+
+  - files:
+      - "**/*.json"
+    options:
+      tabWidth: 2
+      semi: false
+
+  - files:
+      - "**/*.md"
+    options:
+      proseWrap: "always"
+      singleQuote: false
+
+  - files:
+      - "**/*.yaml"
+      - "**/*.yml"
+    options:
+      singleQuote: true
+      tabWidth: 2
