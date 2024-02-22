@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-lombok",
+        "redhat.fabric8-analytics",
+        "vmware.vscode-boot-dev-pack",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml",
+        "anysphere.pyright",
+        "jeff-hykin.better-dockerfile-syntax",
+        "eamodio.gitlens",
+        "oderwat.indent-rainbow",
+        "yzhang.markdown-all-in-one",
+        "sonarsource.sonarlint-vscode",
+        "tabnine.tabnine-vscode"
+    ]
+}

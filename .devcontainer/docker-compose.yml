@@ -1,6 +1,6 @@
 version: '3.8'
 
-volumes:
+# volumes:
   # postgres-data:
 
 services:
@@ -9,7 +9,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    environment:
+    # environment:
       # NOTE: POSTGRES_DB/USER/PASSWORD should match values in db container
       # POSTGRES_PASSWORD: postgres
       # POSTGRES_USER: postgres
